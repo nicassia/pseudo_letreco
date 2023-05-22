@@ -8,15 +8,12 @@ LETRECO
 """
 import random as rd
 
-#"""
-#Escolhe palavra
 dicio = ["grama", "verde", "caldo" ,"crase","cinco","trava","galho"]
 palavra = list(dicio[rd.randint(0,len(dicio)-1)])
-#print(palavra)
 
 tentativa = 1
 
-palpite = "vanus"
+palpite = "palpi"
 
 while tentativa<=2 and palavra != palpite:
     palpite = list(input("\ntentativa {}: ".format(tentativa)))
@@ -41,4 +38,3 @@ while tentativa<=2 and palavra != palpite:
 
 print("\nA palavra é: ",*palavra, sep = "")    
 print("\nFIM DE JOGO")
-        #"""
