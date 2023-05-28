@@ -15,7 +15,7 @@ tentativa = 1
 
 palpite = "palpi"
 
-while tentativa<=2 and palavra != palpite:
+while tentativa<=5 and palavra != palpite:
     palpite = list(input("\ntentativa {}: ".format(tentativa)))
     exibe = ["_","_","_","_","_"]
     dicas = []
